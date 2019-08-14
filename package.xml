@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>LoyaltyLion</name>
+    <version>1.1.2</version>
+    <stability>stable</stability>
+    <license>MIT</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Use LoyaltyLion to add your own loyalty program in minutes and gain valuable customer insights. </summary>
+    <description>Increase activity and customer happiness by offering points for signups, purchases, visits and referrals. Your customers will collect points and redeem them for rewards to use at your store, which encourages repeat visits and long term loyalty.</description>
+    <notes>This release improves the configuration process.</notes>
+    <authors><author><name>Dave Clark</name><user>clarkdave_ll</user><email>dave@loyaltylion.com</email></author><author><name>Patrick Molgaard</name><user>draaglom</user><email>patrick@loyaltylion.com</email></author></authors>
+    <date>2015-12-29</date>
+    <time>16:55:53</time>
+    <contents><target name="magelocal"><dir name="LoyaltyLion"><dir name="Core"><dir name="Block"><file name="Sdk.php" hash="0f1269720db26f76acf791b3e944567b"/></dir><dir name="Helper"><file name="Data.php" hash="3ac59332d4eb3469869d84a07f949d17"/></dir><dir name="Model"><file name="Observer.php" hash="339cc2da60b70b8a81823a76709b1343"/></dir><dir name="etc"><file name="config.xml" hash="13edb1a712803c4bce2a63124f7bb76e"/><file name="system.xml" hash="d9f693debd08ea703404cb3e0d4dec1d"/></dir><dir name="lib"><dir name="loyaltylion-client"><dir name="lib"><file name="connection.php" hash="56f73205995ca0925a1b4cb6b2deb56c"/></dir><file name="main.php" hash="e8646ebd8aabb904b5163fc2a04f7e30"/></dir></dir></dir><dir name="CouponImport"><dir name="Block"><dir name="Adminhtml"><file name="Button.php" hash="3fe32ef718f21cdbed71bd023158960a"/></dir></dir><dir name="Model"><dir name="Api2"><dir name="Coupon"><dir name="Rest"><dir name="Admin"><file name="V1.php" hash="ed9a42c0d8945b69c7dc3436609911d1"/></dir></dir></dir><file name="Coupon.php" hash="bbaf6c59b4b132eb54a72e0688f3fab1"/><dir name="PriceRule"><dir name="Rest"><dir name="Admin"><file name="V1.php" hash="72c2f66b0de2996a612c7509cbbd82f2"/></dir></dir></dir><file name="PriceRule.php" hash="4b8d85f224fd5f121727977066c50cd1"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="QuickSetupController.php" hash="b27c4245cc9ad906b42befeb96f58814"/></dir></dir><dir name="etc"><file name="api2.xml" hash="e8ec47daccbb43584239fe3aeac9c122"/><file name="config.xml" hash="1e88c72e11bee8311e26c581ea858da5"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="loyaltylion"><dir name="core"><file name="sdk.phtml" hash="5e159702c28c50236887eb31b488539a"/></dir></dir></dir><dir name="layout"><file name="loyaltylion.xml" hash="f2c14ac8327d4eea6d8da6dfd61ede4c"/></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="loyaltylion"><dir><dir name="system"><dir name="config"><file name="button.phtml" hash="1a41889f5d0159be59eedb32fb8beb77"/></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="LoyaltyLion_Core.xml" hash="33446455fb634c28776a0fe45095a459"/><file name="LoyaltyLion_CouponImport.xml" hash="ff6ba2c149886ab7ee7de418619bb734"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
