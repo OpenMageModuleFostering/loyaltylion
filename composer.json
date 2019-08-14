@@ -1,9 +1,9 @@
 {
     "name": "OpenMageModuleFostering/LoyaltyLion",
     "type": "magento-module",
-    "license": "MIT",
+    "license": "MITL",
     "homepage": "",
-    "description": "Use LoyaltyLion to add your own loyalty program in minutes and gain valuable customer insights. ",
+    "description": "Use LoyaltyLion to add your own loyalty program in minutes and gain valuable customer insights.",
     "authors": [
     {
         "name": "Dave Clark",
